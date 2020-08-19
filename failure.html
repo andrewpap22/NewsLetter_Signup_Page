@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Failure!</title>
+
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+
+<body>
+
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <h1 class="display-4">Uh oh!!!</h1>
+      <p class="lead">There was a problem with signing up! Please try again, or try contanct the developer!</p>
+
+      <form action="/failure" method="post"> <!-- Used to be called by our server to redirect users to the homepage when they get to the failure page and press the button bellow -->
+        <button class="btn btn-lg btn-warning" type="submit" name="button">Try Again</button>
+      </form>
+    </div>
+  </div>
+
+</body>
+
+</html>
