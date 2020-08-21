@@ -97,3 +97,9 @@ app.listen(process.env.PORT || 3000, function() { //dynamic use of port to let t
 //8207124b79 (list ID) (this is gonna help mailchimp to identify where we want to add or remove subscribers from)
 
 //the Procfile in our directory which contains: web: node app.js simply tells heroku what command to use to lunch our application
+
+/* Now, say we want to make some changes to this project and we want to update them to heroku. To do that:
+ * 1. git add . in the project directory the changes and then.
+ * 2. git commit -m "made some changes..."
+ * 3. git push heroku master
+ * and that's it, it will upload the changes and then we can check the site for them taking place...*/
